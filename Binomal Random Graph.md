@@ -17,3 +17,10 @@ In particular, chance of generating a complete graph $K_n$ and empty graph $\ove
 - Supercritical phase: $<k> > 1 + \epsilon$ for some $\epsilon > 0$. A.a.s. the size of the giant component is $(1+ o(1)) \beta n$, where $\beta + e^{- \beta * <k>}=1$
 
 
+##### Connectivity 
+$p = p(n) = \frac{ln * n + c}{n}$ for some $c \in \mathbb{R}$.
+
+If there are isolated nodes, then the graph is disconnected.
+
+Once isolated nodes disappear, $G(n,p)$ is connected a.a.s.
+$$\mathbb{P}(G(n,p) \textrm{is connected}) =\left\{ \begin{array}{ll}      0 & if c \rightarrow - \inf \\ e^{-e^{-c}} & if c \in \mathbb{R} \\ 1 & if c \in \inf \\ \end{array}  \right. $$
