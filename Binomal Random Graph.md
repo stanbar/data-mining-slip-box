@@ -10,7 +10,10 @@ So $G(n,p)$ is formally defined as the propability destribution over a family of
 In particular, chance of generating a complete graph $K_n$ and empty graph $\overline{K_n}$  are exactly the same for $G(n, \frac{1}{2})$. 
 
 
-Emergence of the giant component
+##### Emergence of the giant component
 
-Subcritical phase: $<k> < 1 - \epsilon$ for some $epsilon > 0$.
-[[Asymptotically almost surely]] $G(n,p)$ consists of small trees and unicyclic components; the size of the largest component is $O(\ln n)$
+- Subcritical phase: $<k> < 1 - \epsilon$ for some $epsilon > 0$. [[Asymptotically almost surely]] $G(n,p)$ consists of small trees and unicyclic components; the size of the largest component is $O(\ln n)$
+- Critical phase: $<k> = 1$. The giant component—connected component of linear size—is formed. During that phase, the size of the largest component keeps growing reaching $\Theta(n^{2/3})$ nodes at precisely $<k>=1$ a.a.s..
+- Supercritical phase: $<k> > 1 + \epsilon$ for some $\epsilon > 0$. A.a.s. the size of the giant component is $(1+ o(1)) \beta n$, where $\beta + e^{- \beta * <k>}=1$
+
+
