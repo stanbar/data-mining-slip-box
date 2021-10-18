@@ -9,4 +9,8 @@ So $G(n,p)$ is formally defined as the propability destribution over a family of
 
 In particular, chance of generating a complete graph $K_n$ and empty graph $\overline{K_n}$  are exactly the same for $G(n, \frac{1}{2})$. 
 
-We say that an [[Event]] in a given [[Probability space]] holds [[Asymptotically almost surely]] (a.a.s.), if its probability tends to one as $n$ goes to infinity. For example, a.a.s. G(n, \frac{1}{2}) is not the complete graph $K_n$ nor the empty graph $\overline{K_n}$.
+
+Emergence of the giant component
+
+Subcritical phase: $<k> < 1 - \epsilon$ for some $epsilon > 0$.
+[[Asymptotically almost surely]] $G(n,p)$ consists of small trees and unicyclic components; the size of the largest component is $O(\ln n)$
