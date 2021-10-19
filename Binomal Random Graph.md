@@ -24,3 +24,20 @@ If there are isolated nodes, then the graph is disconnected.
 
 Once isolated nodes disappear, $G(n,p)$ is connected a.a.s.
 $$\mathbb{P}(G(n,p) \textrm{is connected}) =\left\{ \begin{array}{ll}      0 & if c \rightarrow - \inf \\ e^{-e^{-c}} & if c \in \mathbb{R} \\ 1 & if c \in \inf \\ \end{array}  \right. $$
+
+##### Degree distribution
+Consider $G(n,p)$ with $p=p(n)=\frac{c}{n}$ for some constant $c \in \mathbb{R}_+$ and large $n$. For any node $v \in [n]$, $\mathbb{E}[deg(v)] = p * (n-1) \approx c$ but it is not a $c$-regular graph (graph where each vertex has the same exact degree $c$).
+
+For any $l \in \mathbb{N} \cup \{0\}$
+
+$$\mathbb{P}(deg(v) = l) \approx \frac{c^l}{l!}*e^{-c}$$
+
+This may seem counterintuitive because the chance of  node degree doesn't depend on the number of nodes $n$, intuitively it should since $p = \frac{c}{n}$.  But since they are the random graphs, the chance of attaching edge between some nodes decrease with the number of nodes $n$, which cancel out the influence of $n$. 
+
+In the limit, the degree distibution of sparse $G(n,p)$ can be approximated by the Poisson distribution, that is,
+$$d_l \approx \frac{c^l}{l!}*e^{-c}$$
+
+where $c$ is the asymptotic expected average degree.
+
+In particular, a.a.s. the maximum degree is $O(ln n)$
+

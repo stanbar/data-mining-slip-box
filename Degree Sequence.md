@@ -9,7 +9,7 @@ The degree sequence is $d = (deg(v_1),..., deg(v_n))$
 with non-decreasing order i.e. $deg(v_1) \leq deg(v_2) \leq ... \leq deg(v_n))$.
 
 ###### Degree distribution
-The degree distribution $d_l$ is the fraction of nodes with degree $l$, i.e. $d_l = \frac{n_l}{n}$ where $n_l$ is the number of nodes of degree $l$.
+The degree distribution $d_l$ is the fraction of nodes with degree $l$, i.e. $$d_l = \frac{n_l}{n}$$ where $n_l$ is the number of nodes of degree $l$.
 
 ###### Average degree
 The *average degree* in the unweighted graph $G$ is 
