@@ -1,0 +1,1 @@
+Graphs are great because the theory can be easily applied to real world. This is very rare in the science. It's mainly possible thanks to probability theory, distributions like Poisson distribution, power law. They turn out to nicely represent the reality, especially in large scale. 
